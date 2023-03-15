@@ -31,7 +31,7 @@ def sendMail(receiver, subject, message):
     server.starttls()  # telling the server, that we are sending this mail in a secure way
     # Senders Details
     s_email = "sujahathmsm98@gmail.com"
-    s_password = "kgfwqmpohljqizwe"
+    s_password = "pwd"
     # login
     server.login(s_email, s_password)
 
