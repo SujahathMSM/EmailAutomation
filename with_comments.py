@@ -46,7 +46,7 @@ def sendMail(receiver, subject, message):
     server.starttls()
     # Enter the sender's details
     s_email = "sujahathmsm98@gmail.com"
-    s_password = "kgfwqmpohljqizwe"
+    s_password = "pwd"
     # Login to the sender's email account
     server.login(s_email, s_password)
 
